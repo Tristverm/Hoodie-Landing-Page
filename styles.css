@@ -37,4 +37,31 @@ nav {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  padding: 20px;
+  font-family: var(--primary-font);
+  font-weight: bold;
 }
+
+.logo {
+  margin-left: 5rem;
+}
+.burger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 5rem;
+}
+.burger > span {
+  border: 2px solid var(--main-color);
+  width: 30px;
+  margin: 2px 0;
+}
+.burger > span :first-child {
+  margin: 0;
+}
+.burger > span :last-child {
+  margin: 0;
+}
+/* Nav end */
