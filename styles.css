@@ -65,3 +65,18 @@ nav {
   margin: 0;
 }
 /* Nav end */
+/* Header Start */
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 90vh;
+  margin-top: 2rem;
+}
+.main-headings {
+  font-size: 4rem;
+  font-family: var(--main-font);
+  transform: translateY(-40px);
+  color: #000;
+}
