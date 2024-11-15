@@ -148,6 +148,9 @@ header {
   box-shadow: 4px 7px 5px 2px #bcbaba;
   transition: all 0.9s ease-in-out;
 }
+.img-container:hover {
+  border-color: transparent;
+}
 
 .header-img {
   border-radius: 100%;
@@ -159,4 +162,22 @@ header {
   width: 400px;
   height: 400px;
   transition: all 0.9s ease-in-out;
+}
+.header-img:hover {
+  transform: scale(105%);
+}
+/* header section end */
+.section-one {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 7rem;
+}
+.section-one-img {
+  background: url(./images/gesphotoss-1i9K55ni5Dk-unsplash.jpg);
+  background-position: center;
+  background-size:contain;
+  transition: all 0.9s ease-in-out;
+
 }
