@@ -233,6 +233,9 @@ header {
   object-fit: cover;
   object-position: top;
 }
+#top-rating,#best-seller{
+  border: 2px solid transparent;
+}
 .active-button {
   border: 2px dashed black;
   background-color: black;
