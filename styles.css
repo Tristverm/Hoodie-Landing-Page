@@ -247,12 +247,17 @@ header {
 #top-rating,
 #best-seller {
   border: 2px solid transparent;
+  padding: 10px;
+  border-radius: 12px;
+  transition: all 0.9s ease-in-out;
 }
 .active-button {
   border: 2px dashed black;
   background-color: black;
   color: white;
-  transition: all 0.9s ease-in-out;
+  padding: 10px;
+  border-radius: 12px;
+  
 }
 .active-AllNewArrival-button {
   background-color: var(--main-color) !important;
