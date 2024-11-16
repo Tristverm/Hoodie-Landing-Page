@@ -210,9 +210,31 @@ header {
 }
 .products > .product-items-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   margin: 20px;
   max-width: 60rem;
+  overflow-x: scroll;
+}
+.products > .product-items-container > .item {
+  margin: 20px;
+}
+.products > .product-items-container > .item > .item-layer {
+  background-color: #ebf1f0;
+  padding: 40px;
+  margin-right: 20px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.item > .item-layer > img {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  object-position: top;
+}
+.active-button{
+  border: 2px dashed black;
+  background-color: black;
+  color: white;
 }
