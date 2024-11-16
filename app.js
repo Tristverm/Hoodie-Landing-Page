@@ -1,8 +1,9 @@
-window.onload = function () {
-  document.getElementById("our-products").scrollIntoView({
-    behavior: "smooth", // Scrolls smoothly to the section
-  });
-};
+// window.onload = function () {
+//   document.getElementById("our-products").scrollIntoView({
+//     behavior: "smooth", // Scrolls smoothly to the section
+//   });
+// };
+const logo = document.getElementById("logo");
 const itemsArray = document.getElementsByClassName("item");
 for (let i = 0; i < itemsArray.length; i++) {
   itemsArray[i].style.transition = "all 0.9s ease-in-out";
@@ -14,6 +15,9 @@ let allBtn = document.getElementById("all");
 let newArrivalsBtn = document.getElementById("new-arrivals");
 let bestSellerBtn = document.getElementById("best-seller");
 let topRatingBtn = document.getElementById("top-rating");
+logo.addEventListener("click", () => {
+  logo.scrollIntoView({ behavior: "smooth" });
+});
 allBtn.addEventListener("click", () => {
   viewingState = 4;
   newArrivalsBtn.classList.remove("active-AllNewArrival-button");
