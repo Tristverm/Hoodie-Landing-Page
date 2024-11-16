@@ -211,7 +211,7 @@ header {
 .products > .product-items-container {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin: 20px;
   max-width: 60rem;
@@ -233,7 +233,8 @@ header {
   object-fit: cover;
   object-position: top;
 }
-#top-rating,#best-seller{
+#top-rating,
+#best-seller {
   border: 2px solid transparent;
 }
 .active-button {

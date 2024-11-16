@@ -4,6 +4,10 @@ window.onload = function () {
   });
 };
 const itemsArray = document.getElementsByClassName("item");
+for (let i = 0; i < itemsArray.length; i++) {
+  itemsArray[i].style.transition = "all 0.9s ease-in-out";
+}
+
 console.log(itemsArray);
 let viewingState = 1;
 let allBtn = document.getElementById("all");
