@@ -257,7 +257,6 @@ header {
   color: white;
   padding: 10px;
   border-radius: 12px;
-  
 }
 .active-AllNewArrival-button {
   background-color: var(--main-color) !important;
@@ -278,6 +277,44 @@ header {
   color: var(--main-color);
   border-bottom: 1px solid var(--main-color);
 }
+/* Products Section ENd */
+/* Customer Review section Start */
+.customer-heading {
+  font-family: var(--primary-font);
+  text-align: center;
+  font-size: 2rem;
+  margin: 5rem auto;
+  font-stretch: extra-expanded;
+}
+.customer-reviews {
+  margin-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.customer {
+  text-align: center;
+  line-height: 2rem;
+  width: 30%;
+  min-width: 200px;
+}
+.customer-reviews > .customer > .customer-description {
+  font-size: 1rem;
+  margin-top: 20px;
+  text-align: initial;
+  margin: 10px;
+  font-family: var(--primary-font);
+  color: #716d6d;
+  font-weight: 600;
+}
+.customer > .customer-img > .img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background: url() center/cover;
+}
+/* Customer Review section End */
 @media screen and (max-width: 960px) {
   .section-content {
     margin-top: 10rem;
