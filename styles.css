@@ -196,18 +196,18 @@ header {
   font-size: 2rem;
   margin-bottom: 3rem;
 }
-/* .products > .product-categories {
+.products > .product-categories {
   display: flex;
   flex-direction: row;
   width: 100%;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: center;
-  flex-shrink: 0;
-} */
+}
 
 .products > .product-categories > button {
   margin-right: 20px;
   margin-bottom: 2rem;
+  flex-shrink: 0;
 }
 .products > .product-items-container {
   display: flex;
