@@ -312,7 +312,19 @@ header {
   width: 200px;
   height: 200px;
   border-radius: 100%;
-  background: url() center/cover;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.img.img-one {
+  background-image: url(./images/yogendra-singh-uWs_N5Dlyiw-unsplash.jpg);
+}
+.img.img-two {
+  background-image: url(./images/yogendra-singh-uWs_N5Dlyiw-unsplash.jpg);
+}
+.img.img-three {
+  background-image: url(./images/yogendra-singh-uWs_N5Dlyiw-unsplash.jpg);
 }
 /* Customer Review section End */
 @media screen and (max-width: 960px) {
