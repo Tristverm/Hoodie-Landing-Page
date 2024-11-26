@@ -296,9 +296,9 @@ header {
   width: 90%;
   justify-items: center;
   margin: auto;
-  background: linear-gradient(0.45turn, #ebf1f0,#fff,var(--main-color) );
+  background: linear-gradient(0.45turn, #ebf1f0, #fff, var(--main-color));
   border-radius: 80% 70% 70% 30%/ 30% 60% 20% 30%;
-  border:4px solid var(--main-color)
+  border: 4px solid var(--main-color);
 }
 .customer {
   /* text-align: center;
@@ -323,19 +323,25 @@ header {
   align-items: center;
   flex-shrink: 0;
   margin-left: 1rem;
- background-color: #fff;
+  /* background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 97, 121, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  ); */
+  background-color: #fff;
   padding: 2rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  border-radius:30% 70% 70% 30%/ 30% 30% 70% 70%;
+  border-radius: 30% 70% 70% 30%/ 30% 30% 70% 70%;
   border-top: 2px solid var(--main-color);
-  border-left:2px solid var(--main-color);
-  box-shadow: 2px 2px 2px 2px var(--main-color), 2px 2px 2px 2px var(--main-color);
+  border-left: 2px solid var(--main-color);
+  box-shadow: 2px 2px 2px 2px var(--main-color),
+    2px 2px 2px 2px var(--main-color);
   transition: all 1s ease-in-out;
-  
 }
-.customer:hover{
-  border-radius:1rem;
+.customer:hover {
+  border-radius: 1rem;
   transform: rotateZ(20deg);
 }
 .customer > div {
@@ -345,7 +351,7 @@ header {
   flex-shrink: 0;
   justify-content: flex-start;
   align-items: center;
-  margin-bottom:2px;
+  margin-bottom: 2px;
 }
 .customer-reviews > .customer > .customer-description {
   /* font-size: 1rem;
@@ -364,8 +370,8 @@ header {
   font-family: var(--primary-font);
   font-style: italic;
   font-weight: 400;
-  max-width:70%;
-  margin:auto;
+  max-width: 70%;
+  margin: auto;
 }
 .customer-img > .img {
   /* width: 150px;
@@ -411,8 +417,9 @@ header {
 }
 /* Customer Review section End */
 footer {
-  background: #fff;
-  border-top: 2px solid var(--main-color);
+  background: #ebf1f0;
+  border-top: 4px dashed var(--main-color);
+  border-radius: 71% 29% 100% 0% / 10% 78% 22% 90%;
   margin-top: 10rem;
   color: black;
   display: flex;
@@ -425,7 +432,7 @@ footer {
 }
 footer > .container {
   background: #ebf1f0;
-  width: 30%;
+  width: 20%;
   min-width: 200px;
   margin-left: 1rem;
   margin-right: 1rem;
