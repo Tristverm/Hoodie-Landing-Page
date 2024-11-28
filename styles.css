@@ -31,6 +31,7 @@
   --main-font: "Playfair Display", serif;
   --primary-font: "Roboto", sans-serif;
 }
+
 /* Nav start */
 nav {
   display: flex;
@@ -425,7 +426,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: top;
   padding-bottom: 2rem;
   padding-top: 2rem;
   font-family: var(--primary-font);
@@ -457,7 +458,54 @@ footer > .container > h3 {
   /* color: white; */
   /* font-size:1.2rem;
   font-family: var(--primary-font); */
-  margin-left: 1rem;
+  color: var(--main-color);
+}
+h4.footer-primary-heading {
+  padding: 4px;
+  font-family: var(--primary-font);
+  color: var(--main-color) !important;
+  white-space: pre;
+}
+.container > .logo-label {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  color: var(--main-color);
+  /* justify-content: center;
+  align-items: center;
+  color: var(--main-color); */
+}
+#input-container {
+  display: flex;
+  color: var(--main-color);
+  justify-content: space-between;
+  align-items: center;
+}
+#input-container > input {
+  flex-grow: 1;
+  border: 2px solid var(--main-color);
+  border-radius: 12px;
+  padding: 4px;
+  outline: none;
+}
+#input-container > i {
+  padding: 4px;
+  cursor: pointer;
+}
+
+footer > .container > .socials {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 4px; */
+  margin-top: 8px;
+  width: 80%;
+}
+.socials > i {
+  color: var(--main-color);
+  padding: 4px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 960px) {
